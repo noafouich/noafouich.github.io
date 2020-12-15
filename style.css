@@ -1,3 +1,6 @@
-body{text-align:center;}
+body{text-align:center;
+     color:blue;}
 #me{ font-size: 3em;
-     font-weight: bold;} 
+     font-weight: bold;
+     color:red;} 
+
