@@ -1,0 +1,98 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 18px 8px 18px;
+    font-weight: bold;
+    font-size: large;
+}
+div.categorie{
+    margin-top: 60px;
+}
+div.contenu{
+    background-color: white;
+    margin: -35px 10% 80px 10%;
+    padding: 30px;
+
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+    min-height: 200px;
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+p.description{
+    display: inline-block;
+    max-width: 400px;
+    text-align: center;
+}
+div.centre{
+    text-align: center;
+}
+.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+table.info td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+table.info th{
+    padding-bottom: 8px;
+    text-align: center;
+    vertical-align: bottom;
+}
+div.info{
+    position: relative;
+}
+table.info{
+    position: absolute;
+    bottom: 0;
+    color:white; 
+    background-color: #6C829DC0; 
+    height:80px;
+    width: 100%;
+    min-width: 320px;
+}
+div.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+}
+div.colonne2{
+    float: right;
+}
+div.colonne{
+    width: 45%;
+    margin-top: 20px;
+
+}
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 3px;
+}
+div.colonne1 div p{
+    border: 1px solid #6C829D;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
